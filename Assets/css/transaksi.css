@@ -1,0 +1,48 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logoku{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.kanan{
+    margin-top: 30px;
+}
+
+.gmbr-bayar{
+    height: 200px;
+}
+
+.nama{
+    margin-left: 15px;
+}
+
+.nama h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nama h5{
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.nama p{
+    color: rgb(91, 91, 91);
+}
+
+.purchase-details{
+    float: right;
+}
+
+.purchase{
+    margin-top: 50px;
+}

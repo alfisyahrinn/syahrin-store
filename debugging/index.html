@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="container">
+        <h2>passord tes</h2>
+        <input type="password" id="password">
+        <input type="submit"></input>
+        <div id="message"></div>
+
+    </div>
+    <script>
+        let truePassword = 'meden'
+        let pass = document.getElementById("password")
+        let kirim = document.getElementById("submit")
+        pass.addEventListener('keyup', function(){
+            if (pass.value == truePassword) {
+                document.getElementById("message").innerHTML = 'Pasword benar'
+            } else {
+                document.getElementById("message").innerHTML = 'Pasword salah'
+            }
+        })
+    </script> -->
+    <style>
+        input{
+            display: block;
+        }
+
+        .meen{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #meden{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    <div class="meen">
+        <form action="#">
+            <div class="">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="">
+                <label for="password">Pasword</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="">
+                <button onclick="checkForm()">Login</button>
+            </div>
+        </form>
+        <h2 id="sotot"></h2>
+        <button id="meden" onclick="anjay()">beli</button>
+    </div>
+    
+    <script>
+        function checkForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username == "" || password == "") {
+                alert("Form tidak boleh kosong");
+            } else {
+                alert("Login berhasil");
+            }
+        }
+    </script>
+<script src="main.js"></script>
+</body>
+</html>

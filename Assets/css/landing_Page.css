@@ -1,0 +1,154 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+
+.nav-btn{
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 120px;
+    height: 50px;
+    background: #FFC04D;
+    border-radius: 100px;
+}
+
+.nav-btn:hover{
+    background-color: transparent;
+    color: #000;
+    opacity: 0.95;
+    box-shadow: -12.552px -12.552px 41.84px #ffd078, 16.736px 16.736px 37.656px #FFC04D, inset 2.092px 2.092px 2.092px #FFC04D, inset -2.092px -2.092px 8.368px #e39400;
+    border-radius: 43.932px;
+    transition: all 0.5s ease-out;
+}
+
+/* End Navbar */
+
+/* Hero */
+#hero p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7E8CAC;
+}
+
+.blur-1{
+    position: absolute;
+    z-index: -2;    
+}
+
+#hero h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    line-height: 60px;
+}
+
+.btn-checkout{
+    border-radius: 100px;
+    border: none;
+    width: 207px;
+    height: 60px;
+    color: #fff;
+    background-color: #FF341B;
+}
+
+.blur-red{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    margin-top: 150px;
+    margin-left: 500px;
+    width: 22rem;
+    height: 22rem;
+    background: rgba(254, 53, 31, 0.59);
+    filter: blur(100px);
+    border-radius: 50%;
+    z-index: -3;
+}
+
+.blur-orange{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 350px;
+    margin-left: 280px;
+    width: 22rem;
+    height: 22rem;
+    background: #FFC04D;
+    filter: blur(100px);
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.sketch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 265px;
+    margin-left: 465px;
+    z-index: -1;
+}
+
+/* End Hero */
+
+/* Produk */
+#produk{
+    margin-top: 120px;
+}
+
+
+.img:hover{
+    transform: scale(1.01);
+    transition-delay:0.1s ;
+    transition-duration: 0.5s;
+    filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.25));
+}
+
+.gbr-1{
+    margin-right: 35px;
+}
+/* End Produk */
+
+/* Footer */
+.footer{
+    margin-top: 115px;
+    width: 100%;
+    height: 200px;
+    background: #FDED95;
+}
+
+li{
+    list-style: none;
+}
+
+#footer a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+#footer p{
+    top: 5px ;
+}
+
+span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+/* End Footer */
